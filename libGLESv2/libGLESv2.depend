@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1387694736 source:c:\users\brandon\desktop\libglesv2\exports.cpp
+	"Exports.hpp"
+
+1387695470 c:\users\brandon\desktop\libglesv2\exports.hpp
+	<stdexcept>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	"Library.hpp"
+
+1382650830 c:\users\brandon\desktop\libglesv2\library.hpp
+	<windows.h>
+	<string>
+	<cstdint>
+	<stdexcept>
+
+1382646543 source:c:\users\brandon\desktop\libglesv2\library.cpp
+	"Library.hpp"
+
+1387683714 source:c:\users\brandon\desktop\libglesv2\main.cpp
+	<windows.h>
+	"Exports.hpp"
+

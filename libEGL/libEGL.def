@@ -1,0 +1,38 @@
+LIBRARY	libEGL
+EXPORTS
+
+
+eglBindAPI                          = Hook_eglBindAPI
+eglBindTexImage                     = Hook_eglBindTexImage
+eglChooseConfig                     = Hook_eglChooseConfig
+eglCopyBuffers                      = Hook_eglCopyBuffers
+eglCreateContext                    = Hook_eglCreateContext
+eglCreatePbufferFromClientBuffer    = Hook_eglCreatePbufferFromClientBuffer
+eglCreatePbufferSurface             = Hook_eglCreatePbufferSurface
+eglCreatePixmapSurface              = Hook_eglCreatePixmapSurface
+eglCreateWindowSurface              = Hook_eglCreateWindowSurface
+eglDestroyContext                   = Hook_eglDestroyContext
+eglDestroySurface                   = Hook_eglDestroySurface
+eglGetConfigAttrib                  = Hook_eglGetConfigAttrib
+eglGetConfigs                       = Hook_eglGetConfigs
+eglGetCurrentContext                = Hook_eglGetCurrentContext
+eglGetCurrentDisplay                = Hook_eglGetCurrentDisplay
+eglGetCurrentSurface                = Hook_eglGetCurrentSurface
+eglGetDisplay                       = Hook_eglGetDisplay
+eglGetError                         = Hook_eglGetError
+eglGetProcAddress                   = Hook_eglGetProcAddress
+eglInitialize                       = Hook_eglInitialize
+eglMakeCurrent                      = Hook_eglMakeCurrent
+eglQueryAPI                         = Hook_eglQueryAPI
+eglQueryContext                     = Hook_eglQueryContext
+eglQueryString                      = Hook_eglQueryString
+eglQuerySurface                     = Hook_eglQuerySurface
+eglReleaseTexImage                  = Hook_eglReleaseTexImage
+eglReleaseThread                    = Hook_eglReleaseThread
+eglSurfaceAttrib                    = Hook_eglSurfaceAttrib
+eglSwapBuffers                      = Hook_eglSwapBuffers
+eglSwapInterval                     = Hook_eglSwapInterval
+eglTerminate                        = Hook_eglTerminate
+eglWaitClient                       = Hook_eglWaitClient
+eglWaitGL                           = Hook_eglWaitGL
+eglWaitNative                       = Hook_eglWaitNative

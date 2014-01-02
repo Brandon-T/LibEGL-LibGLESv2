@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1387680054 source:c:\users\brandon\desktop\libegl\exports.cpp
+	"Exports.hpp"
+
+1387680075 c:\users\brandon\desktop\libegl\exports.hpp
+	<stdexcept>
+	<EGL/egl.h>
+	"Library.hpp"
+
+1382650830 c:\users\brandon\desktop\libegl\library.hpp
+	<windows.h>
+	<string>
+	<cstdint>
+	<stdexcept>
+
+1382646543 source:c:\users\brandon\desktop\libegl\library.cpp
+	"Library.hpp"
+
+1387673830 source:c:\users\brandon\desktop\libegl\main.cpp
+	<windows.h>
+
+1387683690 source:c:\users\brandon\desktop\libegl wrapper\exports.cpp
+	"Exports.hpp"
+
+1387680075 c:\users\brandon\desktop\libegl wrapper\exports.hpp
+	<stdexcept>
+	<EGL/egl.h>
+	"Library.hpp"
+
+1382650830 c:\users\brandon\desktop\libegl wrapper\library.hpp
+	<windows.h>
+	<string>
+	<cstdint>
+	<stdexcept>
+
+1382646543 source:c:\users\brandon\desktop\libegl wrapper\library.cpp
+	"Library.hpp"
+
+1387683714 source:c:\users\brandon\desktop\libegl wrapper\main.cpp
+	<windows.h>
+	"Exports.hpp"
+
