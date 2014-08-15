@@ -1,24 +1,37 @@
 # depslib dependency file v1.0
-1387694736 source:c:\users\brandon\desktop\libglesv2\exports.cpp
-	"Exports.hpp"
+1408065812 source:c:\users\brandon\desktop\libglesv2\main.cpp
+	"Exports.h"
 
-1387695470 c:\users\brandon\desktop\libglesv2\exports.hpp
-	<stdexcept>
+1408077120 c:\users\brandon\desktop\libglesv2\exports.h
+	<windows.h>
 	<EGL/egl.h>
 	<GLES2/gl2.h>
 	<GLES2/gl2ext.h>
-	"Library.hpp"
+	<dlfcn.h>
+	<EGL/egl.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<stdbool.h>
+	<string.h>
+	<stdio.h>
 
-1382650830 c:\users\brandon\desktop\libglesv2\library.hpp
+1408078841 source:c:\users\brandon\desktop\libglesv2\exports.c
+	"Exports.h"
+	"Bitmap.h"
+
+1408065934 source:c:\users\brandon\desktop\libglesv2\main.c
+	"Exports.h"
+
+1408078760 source:c:\users\brandon\desktop\libglesv2\bitmap.c
+	"Bitmap.h"
+
+1408077228 c:\users\brandon\desktop\libglesv2\bitmap.h
 	<windows.h>
-	<string>
-	<cstdint>
-	<stdexcept>
-
-1382646543 source:c:\users\brandon\desktop\libglesv2\library.cpp
-	"Library.hpp"
-
-1387683714 source:c:\users\brandon\desktop\libglesv2\main.cpp
-	<windows.h>
-	"Exports.hpp"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<stdint.h>
+	<string.h>
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
 

@@ -4,6 +4,7 @@
 #include <stdexcept>
 #include <EGL/egl.h>
 #include "Library.hpp"
+#include <process.h>
 
 extern Library* OriginalEGL;
 extern "C" bool __stdcall Initialize(void);

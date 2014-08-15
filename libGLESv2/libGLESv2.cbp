@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="libGLESv2" />
+		<Option title="libglesv2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/libGLESv2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/libglesv2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -23,7 +23,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/libGLESv2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/libglesv2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -38,25 +38,29 @@
 				<Linker>
 					<Add option="-s" />
 					<Add option="-m32" />
-					<Add option="-static" />
-					<Add option="-static-libgcc" />
-					<Add option="-static-libstdc++" />
 					<Add option="-Wl,--enable-stdcall-fixup" />
-					<Add option="-Wl,--kill-at -d --input-def libEGL.def" />
+					<Add option="-Wl,--kill-at -d --input-def libglesv2.def" />
 					<Add library="user32" />
 				</Linker>
 			</Target>
 		</Build>
-		<Unit filename="Exports.cpp" />
-		<Unit filename="Exports.hpp" />
-		<Unit filename="Library.cpp" />
-		<Unit filename="Library.hpp" />
-		<Unit filename="libEGL.def" />
-		<Unit filename="main.cpp" />
+		<Unit filename="Bitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Bitmap.h" />
+		<Unit filename="Exports.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Exports.h" />
+		<Unit filename="libglesv2.def" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
+			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

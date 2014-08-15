@@ -114,6 +114,9 @@ EGLBoolean __stdcall Hook_eglBindAPI(EGLenum api)
 
 EGLBoolean __stdcall Hook_eglBindTexImage(EGLDisplay dpy, EGLSurface surface, EGLint buffer)
 {
+    char b[32];
+    sprintf(b, "Swapped: %d", getpid());
+    MessageBox(NULL, b, "Notice", 0);
 	return optr_eglBindTexImage(dpy, surface, buffer);
 }
 

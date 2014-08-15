@@ -40,3 +40,22 @@
 	<windows.h>
 	"Exports.hpp"
 
+1407649354 source:c:\users\brandon\desktop\libegl-libglesv2-master\libegl\library.cpp
+	"Library.hpp"
+
+1407649354 c:\users\brandon\desktop\libegl-libglesv2-master\libegl\library.hpp
+	<windows.h>
+	<string>
+	<cstdint>
+	<stdexcept>
+
+1407649355 source:c:\users\brandon\desktop\libegl-libglesv2-master\libegl\main.cpp
+	<windows.h>
+	"Exports.hpp"
+
+1407650177 c:\users\brandon\desktop\libegl-libglesv2-master\libegl\exports.hpp
+	<stdexcept>
+	<EGL/egl.h>
+	"Library.hpp"
+	<process.h>
+
