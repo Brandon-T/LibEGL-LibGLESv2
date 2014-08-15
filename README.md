@@ -1,4 +1,4 @@
-LibEGL-LibGLESv2
+xWebGL
 ================
 
 WebGL Plugin Wrappers/Hooks
